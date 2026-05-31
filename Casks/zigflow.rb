@@ -4,12 +4,12 @@ cask "zigflow" do
 
   on_macos do
     on_intel do
-      sha256 "64e582635833d865ef99565b5dff5f3b829dc05357d0d863c1b0a517c93c15e3"
+      sha256 "c33bb3cefc64c7ce4d8e94747c449b9725d740985223db056f36787ed922dc83"
       url "https://github.com/zigflow/zigflow/releases/download/v#{version}/zigflow_darwin_x86_64"
       binary "zigflow_darwin_x86_64", target: "zigflow"
     end
     on_arm do
-      sha256 "88211cb720876370b6560cf2d86d08d73ee57217930aed6c5b0b1f76966dfad3"
+      sha256 "d63d849ad86e4239ef100d63b4caca08375397c3d86bc08eb8b42bc914d6c9b7"
       url "https://github.com/zigflow/zigflow/releases/download/v#{version}/zigflow_darwin_arm64"
       binary "zigflow_darwin_arm64", target: "zigflow"
     end
@@ -17,12 +17,12 @@ cask "zigflow" do
 
   on_linux do
     on_intel do
-      sha256 "b4fa4ec4ab0cc0cd2ec9bb4fcadba3420622cf90f2b1c2fe4d5364ea43f7e311"
+      sha256 "a95c1160157f50ec51845f0adadbfd68197101fbd606e41de5802e7646634078"
       url "https://github.com/zigflow/zigflow/releases/download/v#{version}/zigflow_linux_x86_64"
       binary "zigflow_linux_x86_64", target: "zigflow"
     end
     on_arm do
-      sha256 "c6870b40e4c0de1eb13df62a81421d3deac83c2e9fea3626abe683e390f15f61"
+      sha256 "11682610d6e1db5dc17fd30f24c5d2c2c840a162095108e0eac7249ccead4cc1"
       url "https://github.com/zigflow/zigflow/releases/download/v#{version}/zigflow_linux_arm64"
       binary "zigflow_linux_arm64", target: "zigflow"
     end
